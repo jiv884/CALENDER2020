@@ -45,6 +45,12 @@ body {
     text-align: right;
     font-size: 20px;
   }
+
+  .back{
+    align-items: center;
+    text-align: left;
+    font-size: 20px;
+  }
   
   
   .calendar{

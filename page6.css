@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(162, 201, 199);
+
+}
+
+p{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgba(33, 63, 102, 0.678);
+}
+
+a{
+    font-size: 20px;
+    font-family: courier;
+    color: white;
+}

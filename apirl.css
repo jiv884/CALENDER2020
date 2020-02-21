@@ -1,0 +1,56 @@
+body {
+    font-family: Courier;
+    color: rgb(255, 251, 251);
+  }
+  
+  
+  .month {
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    background-color:rgba(33, 182, 157, 0.479);
+  }
+  
+  .header > div {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .week,.header {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);  
+  }
+  
+  .week {
+    grid-auto-rows: 130px;
+    text-align: left;
+  }
+  
+  .day {
+    padding: 10px;
+    border-right: 1px solid rgb(255, 255, 255);
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    }
+  }
+  
+  .header {
+    align-items: center;
+    text-align: center;
+  }
+
+  .next{
+    align-items: center;
+    text-align: right;
+    font-size: 20px;
+  }
+  
+  
+  .calendar{
+    background-color:rgba(33, 182, 157, 0.479);
+    border: 0px solid #e6dfdf;
+  }
+  
+  a { color:rgb(255, 255, 255); transition:0.3s; }
+  a:hover { color:rgb(91, 140, 245); }
